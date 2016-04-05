@@ -1,6 +1,7 @@
 ({ 	
     doInit : function(component, event, helper) { 
         helper.getTravelRequestsHelper(component);
+        //sample comment from 9 
         //helper.getApprovalRequestsHelper(component);
     },
     approvalSubmittedEvtHndlr : function(component, event, helper) {
@@ -18,7 +19,7 @@
 		helper.getApprovalRequestsHelper(component);        
     },
     newTravelReqCtrl : function(component, event, helper) { 
-		helper.tabClick(component, event, 'tab-default-3');
+		helper.tabClick(component, event, 'tab-default-3'); 
         var editRecordEvt = $A.get("e.c:EditTravelReq");
         editRecordEvt.setParams({ "travelReqId" : "None"});
         editRecordEvt.fire(); 
