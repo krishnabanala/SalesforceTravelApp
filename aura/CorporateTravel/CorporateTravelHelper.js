@@ -1,6 +1,7 @@
 ({
     getTravelRequestsHelper : function(component) {
         //sample comment3 from 9 
+        //sample comment3 from 9 
         var action = component.get("c.getTravelRequests");	
         action.setCallback(this, function(response) {
             var state = response.getState();
