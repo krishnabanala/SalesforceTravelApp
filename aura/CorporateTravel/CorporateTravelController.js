@@ -5,6 +5,7 @@
         //helper.getApprovalRequestsHelper(component);
     },
     approvalSubmittedEvtHndlr : function(component, event, helper) {
+        //sample comment2 from 9 
         window.scrollTo(0,0);
         component.set("v.displayMsg", "msgTrue");
         setTimeout(function(){ component.set("v.displayMsg", "msgFalse"); }, 3000);
