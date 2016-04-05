@@ -3,6 +3,7 @@
         helper.getTravelRequestsHelper(component);
         //sample comment from 9 
         //helper.getApprovalRequestsHelper(component);
+         //sample comment3 from 9 
     },
     approvalSubmittedEvtHndlr : function(component, event, helper) {
         //sample comment2 from 9 
